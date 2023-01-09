@@ -1,0 +1,77 @@
+baseURL = 'dawntyim.github.io'
+languageCode = 'en-us'
+title = "Dawn Yim's Blog"
+theme = 'PaperMod'
+defaultContentLanguage = 'en'
+[languages]
+  [languages.ko]
+    languagedirection = 'korean'
+    title = "Dawn Yim's Blog"
+    weight = 2
+  [languages.en]
+    title = "Dawn Yim's Blog"
+    weight = 1
+    
+[menu]
+    [[menu.main]]
+    name = "Archive"
+    url = "archives"
+    weight = 5
+    
+    [[menu.main]]
+    name = "Search"
+    url = "search/"
+    weight = 10
+
+    [[menu.main]]
+    name = "Tags"
+    url = "tags/"
+    weight = 10
+
+[params]
+env = "production"
+description = "Dawn Yim Blog"
+author = "Dawn Yim"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
+
+  [params.profileMode]
+  enabled = false
+  title = "Dawn Yim''s Blog"
+  imageUrl = "#"
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "This is an archive of my learning!"
+  Content = """
+- SWE @ Microsoft Azure
+- Bitcoin Enthusiast
+- Based in Seattle, Washington
+- From Seoul, South Korea
+"""
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dawntyim/"
+
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/daeunyim/"
+
+
