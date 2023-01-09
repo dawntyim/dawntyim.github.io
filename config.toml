@@ -1,4 +1,4 @@
-baseURL = 'dawntyim.github.io'
+baseURL = 'https://dawntyim.github.io'
 languageCode = 'en-us'
 title = "Dawn Yim's Blog"
 theme = 'PaperMod'
