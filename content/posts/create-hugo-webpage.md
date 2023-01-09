@@ -1,9 +1,9 @@
 ---
 title: "Create Hugo Webpage"
 date: 2023-01-08T22:39:37-08:00
-draft: true
+draft: false
 author: "Dawn Yim"
-summary: ""
+summary: "How to set config and deploy a hugo project"
 tags: ["hugo", "static web", "github.io"]
 hideMeta: false
 searchHidden: false
@@ -75,7 +75,7 @@ You can use config file to add features supported by Hugo such as categorization
     weight = 10
 ```
 
-## Deploying to Github io
+## Deploying to Github.io
 I deployed this project to my github.io page. Github page deployment requires Github Actions run by default. Github Actions is an automated script that will run based on the conditions you set. You can simply use the Github Action template provided by the [official document's deployment section](https://gohugo.io/hosting-and-deployment/hosting-on-github/). 
 
 Create 'gh_pages.yml' (or different name) file in .github/workflows (this can't be changed) folder. This `on` condition means every time there's a push to the listed branches, the action will be run. 

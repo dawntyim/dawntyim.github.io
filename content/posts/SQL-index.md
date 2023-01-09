@@ -1,8 +1,8 @@
 ---
 title: "SQL Index"
-date: 2023-01-08T14:17:45-08:00
+date: 2023-01-07T14:17:45-08:00
 draft: false
-summary: "SQL indexing rowstore columnstore"
+summary: "SQL indexing basics"
 tags: ["SQL", "index"]
 hideMeta: false
 searchHidden: false
@@ -11,7 +11,7 @@ ShowBreadCrumbs: false
 
 # SQL Indexing
 
-Date: January 5, 2023
+Date: January 7, 2023
 Tags: Index, SQL
 
 This note is based on Pluralsite lectures by <> and <> on SQL indexing. 
