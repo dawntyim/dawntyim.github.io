@@ -9,6 +9,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    env:
+      HUGO_GOOGLE_ANALYTICS: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
     steps:
       - uses: actions/checkout@v3
         with:

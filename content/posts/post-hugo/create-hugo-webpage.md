@@ -88,4 +88,6 @@ on:
 ```
 Once the script is run, you can check that in the 'Actions' tab in your repository. This action pushes the changes into 'gh_pages' branch and in the branch you will see output in the public folder of your main branch are pushed to that branch. This one contains the frontend files generated from your content markdown files and the theme. 
 
-To complete the deployment, go to settings -> pages and check 'Deploy from a branch' to deploy from 'gh_pages' branch. You will see `Your site is live at https://dawntyim.github.io/` message on the top of the page. 
+To complete the deployment, go to settings -> pages and check 'Deploy from a branch' to deploy from 'gh_pages' branch. Click the link in the Github Pages panel.
+
+![Github page](images/github_page_eg.png)
