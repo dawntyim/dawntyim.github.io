@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "Dawn Yim's Blog"
 theme = 'PaperMod'
 defaultContentLanguage = 'en'
+
 [languages]
   [languages.ko]
     languagedirection = 'korean'
