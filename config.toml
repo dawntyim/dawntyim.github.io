@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Dawn Yim's Blog"
 theme = 'PaperMod'
 defaultContentLanguage = 'en'
-buildDrafts = false
+buildDrafts = true
 googleAnalytics = 'G-214B214DYW'
 [languages]
   [languages.ko]

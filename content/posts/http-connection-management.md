@@ -4,7 +4,7 @@ date: 2023-01-09T23:00:54-08:00
 draft: true
 author: "Dawn Yim"
 summary: "HTTP Connections and management tips"
-tags: ""
+tags: ["HTTP"]
 hideMeta: false
 searchHidden: false
 ShowBreadCrumbs: false
